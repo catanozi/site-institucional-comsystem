@@ -10,7 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-.output
+output
+
 .vinxi
 .tanstack/**
 .nitro
@@ -19,7 +20,11 @@ dist-ssr
 .wrangler/
 .dev.vars
 
-# diretorios e arquivos
+# Variáveis de ambiente
+.env
+.env.*
+
+# diretórios e arquivos
 .vscode/*
 !.vscode/extensions.json
 .idea
