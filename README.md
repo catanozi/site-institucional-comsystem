@@ -1,37 +1,69 @@
-# Site Comsystem — versão independente do Lovable
+# Comsystem — Site Institucional
 
-Projeto convertido para React + Vite estático, sem dependências de execução ou build do Lovable.
+Site institucional desenvolvido para a **Comsystem Sistemas**, com foco em apresentar a empresa, suas soluções e serviços de forma moderna, responsiva e acessível.
 
-## Requisitos
+## Tecnologias utilizadas
 
-- Node.js 22
-- npm
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
 
-## Desenvolvimento local
+## Funcionalidades
+
+- Layout responsivo para desktop e dispositivos móveis
+- Apresentação das soluções e serviços da empresa
+- Navegação entre seções do site
+- Componentes reutilizáveis em React
+- Formulário de contato
+- Integração com WhatsApp
+- Otimizações para publicação em ambiente web
+
+## Executando o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/catanozi/site-institucional-comsystem.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd site-institucional-comsystem
+```
+
+Instale as dependências:
 
 ```bash
 npm install
+```
+
+Execute o projeto em ambiente de desenvolvimento:
+
+```bash
 npm run dev
 ```
 
-## Gerar versão de produção
+## Build de produção
+
+Para gerar a versão otimizada do projeto:
 
 ```bash
 npm run build
 ```
 
-Os arquivos prontos serão gerados na pasta `dist/`.
+Os arquivos de produção serão gerados na pasta `dist`.
 
-## Publicar na Hostinger
+## Sobre o projeto
 
-1. Gere a pasta `dist` com `npm run build`.
-2. Abra o hPanel da Hostinger.
-3. Vá em Arquivos > Gerenciador de arquivos.
-4. Abra `public_html`.
-5. Remova os arquivos do site antigo somente após fazer backup.
-6. Envie o conteúdo interno de `dist/` para `public_html`.
-7. Confirme que `index.html`, `.htaccess`, `robots.txt`, `sitemap.xml`, `assets/` e `favicon.ico` estão diretamente em `public_html`.
+Este projeto foi desenvolvido como site institucional da Comsystem, buscando melhorar a apresentação digital da empresa e facilitar o acesso dos usuários às informações sobre seus produtos, serviços e canais de atendimento.
 
-## Atenção: formulário de contato
+## Autor
 
-O formulário presente no projeto original apenas simula o envio no navegador. Ele ainda precisa ser conectado a um serviço real de e-mail, API ou script PHP antes da publicação definitiva.
+**Luiz Eduardo Catanozi de Andrade**
+
+Desenvolvimento Web • Tecnologia em Sistemas para Internet
